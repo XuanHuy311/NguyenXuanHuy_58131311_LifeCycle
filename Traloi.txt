@@ -1,0 +1,23 @@
+Cau 4:
+Khi nguoi su dung bam nut back sau do mo lai ung dung: 
+	onPause called
+	onStop called
+	onDestroy called
+
+	onCreate called
+	onStart called
+	OnResume called
+Cau5:
+Khi nguoi su dung bam nut home va sau do mo lai ung dung:
+	onPause called
+	onStop called	
+	
+	onRestart called
+	onStart called
+	OnResume called
+
+Cau 6:
+Can phai thuc hien trong Onpause()
+Vi
+ onPause() la phuong thuc duy nhat dam bao duoc goi truoc khi tien trinh bi huy (killed) — onStop() va
+onDestroy() co the khong duoc goi.
